@@ -56,3 +56,30 @@ bash
  - npm start
 
 O aplicativo será executado no navegador em http://localhost:3000.
+
+Estrutura do Projeto
+
+deposito-simples/
+├── public/                 # Arquivos públicos
+├── src/                    # Código fonte
+│   ├── App.js              # Componente principal do aplicativo
+│   ├── AppContext.js       # Contexto global para gerenciamento de estado
+│   ├── pages/              # Páginas do aplicativo
+│   │   ├── Login.js        # Tela de login
+│   │   ├── Main.js         # Tela principal
+│   │   ├── SalesControl.js # Controle de vendas
+│   │   ├── StockControl.js # Controle de estoque
+│   │   └── Reports.js      # Relatórios
+├── package.json            # Configurações do npm e dependências
+└── README.md               # Documentação do projeto
+
+
+Contribuindo
+
+Contribuições são bem-vindas! Se você tiver alguma sugestão, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+Licença
+
+Este projeto é licenciado sob a MIT License. Consulte o arquivo LICENSE para mais detalhes.
+
+Esse texto oferece uma visão clara do projeto e orientações sobre como executá-lo localmente. Você pode adaptá-lo conforme necessário!
+
