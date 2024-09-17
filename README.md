@@ -60,17 +60,29 @@ O aplicativo será executado no navegador em http://localhost:3000.
 Estrutura do Projeto
 
 deposito-simples/
+
 ├── public/                 # Arquivos públicos
+
 ├── src/                    # Código fonte
+
 │   ├── App.js              # Componente principal do aplicativo
+
 │   ├── AppContext.js       # Contexto global para gerenciamento de estado
+
 │   ├── pages/              # Páginas do aplicativo
+
 │   │   ├── Login.js        # Tela de login
+
 │   │   ├── Main.js         # Tela principal
+
 │   │   ├── SalesControl.js # Controle de vendas
+
 │   │   ├── StockControl.js # Controle de estoque
+
 │   │   └── Reports.js      # Relatórios
+
 ├── package.json            # Configurações do npm e dependências
+
 └── README.md               # Documentação do projeto
 
 
