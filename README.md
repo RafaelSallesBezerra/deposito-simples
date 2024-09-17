@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Depósito Simples
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Depósito Simples** é um aplicativo React desenvolvido para gerenciar vendas, controlar o estoque e gerar relatórios para depósitos de materiais de construção. O sistema oferece funcionalidades para facilitar o gerenciamento diário do depósito, como a atualização automática de estoque após vendas e a visualização de relatórios de vendas e lucro.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- **Login**: Interface para autenticação de usuários.
+- **Controle de Vendas**: Registro de vendas com cálculo automático do valor total com base na quantidade e preço dos produtos.
+- **Controle de Estoque**: Gerenciamento do estoque com atualização automática após cada venda.
+- **Relatórios**: Geração de relatórios com informações detalhadas sobre vendas realizadas, estoque atualizado e lucro gerado.
 
-### `npm start`
+## Como Usar
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Faça o **login** para acessar as funcionalidades do sistema.
+2. Na **tela principal**, navegue entre as opções de controle de vendas, controle de estoque e relatórios.
+3. Em **Controle de Vendas**, registre as vendas com o nome do produto, quantidade e valor unitário. O estoque será atualizado automaticamente.
+4. Em **Controle de Estoque**, visualize os produtos e seus respectivos níveis de estoque atualizados, junto com o valor de cada item.
+5. Em **Relatórios**, consulte as vendas realizadas no dia, o estoque atualizado e o lucro gerado, calculado com base nas vendas e no valor unitário dos produtos.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tecnologias Utilizadas
 
-### `npm test`
+- **React**: Biblioteca JavaScript para a construção da interface do usuário.
+- **React Router**: Para navegação entre as páginas.
+- **Context API**: Para gerenciar o estado global do aplicativo (vendas e estoque).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Como Executar o Projeto Localmente
 
-### `npm run build`
+### Pré-requisitos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (>= 14.x)
+- npm (>= 6.x)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Instalação
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone o repositório:
 
-### `npm run eject`
+   ```bash
+   git clone https://github.com/RafaelsallesBezerra/deposito-simples.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Navegue até o diretório do projeto:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+bash
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+cd deposito-simples
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Instale as dependências:
 
-## Learn More
+bash
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  - npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Inicie o aplicativo:
 
-### Code Splitting
+bash
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ - npm start
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+O aplicativo será executado no navegador em http://localhost:3000.
